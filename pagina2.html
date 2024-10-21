@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 2</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .current-page {
+            font-weight: bold;
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Inicio</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="pagina1.html">Página 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link current-page" href="pagina2.html">Página 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pagina3.html">Página 3</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1>Página 2</h1>
+        <p>Este es el primer párrafo de la página 2. Contenido diferente que enriquece la experiencia del usuario.</p>
+        <p>El segundo párrafo es una continuación creativa de la historia.</p>
+        <p>Finalmente, el tercer párrafo añade un toque final al contenido.</p>
+
+        <!-- Imagenes -->
+        <div class="row">
+            <div class="col-md-4">
+                <img src="acura.jpg" class="img-fluid" alt="Imagen 1">
+            </div>
+            <div class="col-md-4">
+                <img src="bocho.jpg" class="img-fluid" alt="Imagen 2">
+            </div>
+            <div class="col-md-4">
+                <img src="rally.jpg" class="img-fluid" alt="Imagen 3">
+            </div>
+        </div>
+
+        <!-- Componente Bootstrap: Card -->
+        <div class="card mt-4">
+            <div class="card-body">
+                <h5 class="card-title">Tarjeta de Bootstrap</h5>
+                <p class="card-text">Un ejemplo de tarjeta para mostrar contenido destacado de manera organizada.</p>
+            </div>
+        </div>
+
+        <!-- Componente Bootstrap: Alert -->
+        <div class="alert alert-warning mt-4" role="alert">
+            Esta es una alerta de advertencia.
+        </div>
+    </div>
+
+</body>
+</html>
